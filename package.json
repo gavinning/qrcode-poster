@@ -1,8 +1,8 @@
 {
   "name": "qrcode-poster",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "创建带二维码的海报，在图片上指定位置创建二维码",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "mocha test/**/*.spec.js"
   },
@@ -22,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/gavinning/qrcode-poster/issues"
   },
-  "homepage": "https://github.com/gavinning/qrcode-poster#readme"
+  "homepage": "https://github.com/gavinning/qrcode-poster#readme",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "extend": "^3.0.2",
+    "fs-extra": "^8.1.0",
+    "gm": "^1.23.1",
+    "qrcode": "^1.4.4",
+    "shortid": "^2.2.15"
+  }
 }
