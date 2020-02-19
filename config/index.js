@@ -13,7 +13,7 @@ module.exports = {
             light: '#fff'
         },
         dist() { // 二维码默认生成路径，默认生成在系统临时目录
-            return path.join(os.tmpDir(), sid.generate())
+            return path.join(os.tmpdir(), sid.generate())
         }
     },
     index: 0, // 当前生效海报模板的索引

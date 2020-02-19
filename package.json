@@ -1,6 +1,6 @@
 {
   "name": "qrcode-poster",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "创建带二维码的海报，在图片上指定位置创建二维码",
   "main": "app.js",
   "scripts": {
