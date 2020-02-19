@@ -1,5 +1,6 @@
 // Poster默认配置
 
+const os = require('os')
 const path = require('path')
 const sid = require('shortid')
 
