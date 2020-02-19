@@ -9,12 +9,10 @@ qrcode-poster
 首先需要安装 ``gm`` 模块依赖 ``graphicsmagick`` or ``imagemagick``
 ```sh
 # Centos
-yum install graphicsmagick -y
-yum install imagemagick -y
+yum install GraphicsMagick -y
 
 # Mac os x
 brew install graphicsmagick
-brew install imagemagick
 ```
 
 ## 安装使用
